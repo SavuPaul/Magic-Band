@@ -2,6 +2,8 @@ C-Implementation of a doubly-linked list with a sentinel node on which various o
 ---
 > After implementing the structures and functions for the list, stack, and queue, I included the header files in tema.c.
 
+Functionality
+---
 First, I read the number of instructions that will be executed. I used a loop (while) to execute each instruction in turn.
 
 According to the examples, I divided the commands into two categories:
@@ -37,7 +39,8 @@ Another function parameter is writing, initialized to 0, which becomes 1 if the 
 For an undo or redo command, we proceed as explained in the assignment statement, transferring addresses between stacks as needed based on the desired operation.
 
 Finally, the allocated memory is freed.
----
+
 TEST SCORES:
+---
 Total: 100.0/100
 Valgrind: 20/20
