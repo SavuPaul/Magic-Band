@@ -1,3 +1,5 @@
+C-Implementation of a doubly-linked list with a sentinel node on which various operations can be performed.
+
 After implementing the structures and functions for the list, stack, and queue, I included the header files in tema.c.
 
 First, I read the number of instructions that will be executed. I used a loop (while) to execute each instruction in turn.
